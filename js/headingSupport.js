@@ -23,14 +23,14 @@
   // https://developer.mozilla.org/en-US/docs/Web/Events/scroll
   window.addEventListener("scroll", function(e) {
     last_known_scroll_position = window.scrollY;
-    if(last_known_scroll_position > 200){
-        // display some bio info
-        console.log('Some data');
-        $(".landing-bio").show("slow");
-    } else {
-        console.log('No info present :D');
-        $(".landing-bio").hide();
-    }
+    // if(last_known_scroll_position > 200){
+    //     // display some bio info
+    //     console.log('Some data');
+    //     $(".landing-bio").show("slow");
+    // } else {
+    //     console.log('No info present :D');
+    //     $(".landing-bio").hide();
+    // }
 
     if (!ticking) {
       window.requestAnimationFrame(function() {

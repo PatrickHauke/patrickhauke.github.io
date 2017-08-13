@@ -3,24 +3,19 @@ html, body {
     width:100%;
 }
 
-main {
-  background: linear-gradient(to bottom, #ffffff 0%, #dddee1 100%);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 10vh 0 80vh;
-  position: relative;
-  /*text-align: center;*/
-  overflow: hidden;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  line-height: 150%;
 }
-main::after {
-  border-right: 2px dashed #eee;
-  content: '';
-  position: absolute;
-  top: calc(10vh + 1.618em);
-  bottom: 0;
-  left: 50%;
-  width: 2px;
-  height: 100%;
-}
+
+/*h4{
+  font-size: 2vw;
+}*/
 
 footer {
   background: #dddee1;
@@ -37,3 +32,80 @@ small a {
   color: inherit;
 }
 
+.main-container{
+  max-width:1200px;
+  margin: auto;
+  padding:10px;
+  position: relative;
+}
+
+.content-box{
+  width:30%;
+  position: relative;
+  float: left;
+  margin: 0% 1.375% 2.75% 1.375%;
+}
+
+.subject{
+  float:left;
+  width:100%;
+  padding: 15px;
+  background: #dedede;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+  border: solid 1px #EAEAEA;
+}
+
+.subject .category-color {
+  height: 7px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.subject .category-header {
+  margin: 8px 0px;
+}
+
+.subject .category-header .date {
+  float: left;
+  text-align: left;
+}
+
+.subject .category-header .category {
+  float: right;
+  text-align: right;
+}
+
+.subject .category-header .date,
+.subject .category-header .category {
+  margin: 0px;
+  clear: none;
+  width: 50%;
+}
+
+.personal-info-padding{
+  padding:50px 0;
+}
+
+.subject.employment .category-color{
+  background: #2980b9;
+}
+
+.subject.languages .category-color{
+  background: #fc7a00;
+}
+
+.subject.framework .category-color{
+  background: #00fcd2;
+}
+
+.title{
+  font-size: 1.7vw;
+  padding-top:1vw;
+}
+
+.category-header{
+  width: 100%;
+  font-size: 20px;
+}
