@@ -1,0 +1,39 @@
+html, body {
+    height:100%;
+    width:100%;
+}
+
+main {
+  background: linear-gradient(to bottom, #ffffff 0%, #dddee1 100%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10vh 0 80vh;
+  position: relative;
+  /*text-align: center;*/
+  overflow: hidden;
+}
+main::after {
+  border-right: 2px dashed #eee;
+  content: '';
+  position: absolute;
+  top: calc(10vh + 1.618em);
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+}
+
+footer {
+  background: #dddee1;
+  padding: 5vh 0;
+  text-align: center;
+  position: relative;
+}
+
+small {
+  opacity: .5;
+  font-weight: 300;
+}
+small a {
+  color: inherit;
+}
+
