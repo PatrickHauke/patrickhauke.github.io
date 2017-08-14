@@ -23,7 +23,8 @@ svg:hover path {
 }
 
 body {
-    background: #fff;
+    background: #223F43;
+    background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #223F43), color-stop(80.333%, #223F43), color-stop(80.333%, #FF3D00), color-stop(100%, #FF3D00));
     color: #333;
     font-family: 'Ubuntu', sans-serif;
     position: relative;
@@ -47,6 +48,7 @@ h3 {
     background-size: cover;
 }
 
+
 /* Sits on top of the svg curve */
 
 header {
@@ -63,5 +65,5 @@ header {
 }
 
 .landing-bio {
-    padding-top:10vh;
+    padding-top: 10vh;
 }

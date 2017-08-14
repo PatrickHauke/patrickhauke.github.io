@@ -1,0 +1,66 @@
+.subject .category-color {
+  height: 15px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: #2980b9;
+}
+
+.card{
+  /* Limit the height?*/
+  /*max-height:200px;*/
+  float: left;
+  padding:10px;
+  margin: 0% 0% 2.75% 1.375%;
+}
+
+.card-title {
+  padding: 0px 10px 0px 10px;
+}
+
+.subject .icon{
+  position: absolute;
+  top: -20px;
+  left: calc(50% - 20px);
+}
+
+/*.subject .icon i {
+  width: 40px;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 150%;
+  border-radius: 50%;
+  text-align: center;
+  padding: 7px;
+
+}*/
+
+.subject.employment .icon i {
+  background: #2980b9;
+}
+
+.card-subtitle {
+  border-bottom-style: solid;
+  border-color: #ccc;
+}
+
+.personal-info-padding{
+  padding:50px 0;
+}
+
+.subject.employment .category-color{
+  background: #2980b9;
+}
+
+.subject.languages .category-color{
+  background: #fc7a00;
+}
+
+.subject.framework .category-color{
+  background: #00fcd2;
+}
+
+.subject.interests .category-color{
+    background: #4CAF50;
+}
