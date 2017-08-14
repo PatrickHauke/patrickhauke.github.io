@@ -64,3 +64,9 @@
 .subject.interests .category-color{
     background: #4CAF50;
 }
+
+.personal-info-heading {
+    padding: 15px;
+    text-align:center;
+    color:#fff;
+}
